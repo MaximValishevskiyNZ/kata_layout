@@ -10,18 +10,21 @@
 <header class="header">
         <nav class="header__navigation">
             <div class="header__burger">
-                <button class="header__btn btn"></button>
+                <button class="header__btn bg-img__menu "></button>
                 <div class="header__logo-btn">
                     <a class="header__logo-link">
-                        <img class="header__logo-image" src="assets/images/logo.svg">
+                        <img class="header__logo-image" alt="SPC логотип" src="assets/images/logo.svg">
                     </a>
                 </div>
             </div>
-            <button class="header__btn"></button>
-            <button class="header__btn"></button>
-            <button class="header__btn"></button>
-            <button class="header__btn"></button>
-            <button class="header__btn"></button>
+            <div class="header__action-btns">
+                <button class="header__btn bg-img__phone"></button>
+                <button class="header__btn bg-img__message"></button>
+                <button class="header__btn bg-img__person"></button>
+            </div>
+            <div class="header__separator"></div>
+            <button class="header__btn bg-img__tools"></button>
+            <button class="header__btn bg-img__glass"></button>
         </nav>
 </header>
 <main class="main">
@@ -29,13 +32,11 @@
             <div class="services__header">
                 <h1 class="services__title">Услуги и сервисы</h1>
                 <nav class="services__btn-list">
-                    <button class="services__btn">
+                    <button class="services__btn  services__btn-tools">
                         Оставить заявку
-                        <div class="services__img"></div>
                     </button>
-                    <button class="services__btn">
+                    <button class="services__btn services__btn-glass">
                         Статус ремонта
-                        <div class="services__img"></div>
                     </button>
                 </nav>
             </div>
@@ -67,14 +68,16 @@
         </div>
     <section class="article">
         <div class="article__description">
-            <p class="article__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-            <p class="article__text article__text1">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</p>
-            <p class="article__text article__text2"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+            <div class="article__text">
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</p>
+                <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+            </div>
             <button class="article__button">
                 Читать далее
             </button>
         </div>
-        <img src="./assets/images/section_pic_1.png" alt="SPC" class="article__image">
+        <img src="./assets/images/section_pic_1.png" alt="SPC офис" class="article__image">
     </section>
 
 </main>
